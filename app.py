@@ -78,7 +78,7 @@ if uploaded_file is not None:
 # Add the training and validation accuracy graph
 st.subheader("Training and Validation Accuracy")
 st.write("Below is the graph showing the training and validation accuracy over epochs:")
-st.image("Images/accuracy.png", use_column_width=True)
+st.image("Images/Accuracy graph.png", use_column_width=True)
 
 # Model architecture and training details
 st.write("### Model Architecture")
