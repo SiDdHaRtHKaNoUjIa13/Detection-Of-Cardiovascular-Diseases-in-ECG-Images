@@ -78,11 +78,10 @@ if uploaded_file is not None:
 # Add the training and validation accuracy graph
 st.subheader("Training and Validation Accuracy")
 st.write("Below is the graph showing the training and validation accuracy over epochs:")
-st.image("Images/Accuracy graph.png", use_column_width=True)
+st.image("Images/Accuracy graph.jpeg", use_column_width=True)
 
 # Model architecture and training details
 st.write("### Model Architecture")
-st.write("The model used is a custom CNN with two branches (stack and full) and 38 layers in total.")
 st.write("It uses LeakyReLU, Batch Normalization, Dropout, and Softmax for classification.")
 
 st.write("### Training Details")
