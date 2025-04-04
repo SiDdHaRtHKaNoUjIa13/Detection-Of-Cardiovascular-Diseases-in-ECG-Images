@@ -106,7 +106,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 import io
-import dotenv
+# import dotenv
 import os
 from email.utils import formataddr
 # ==================== CONFIGURATION ====================
